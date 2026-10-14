@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Meu Gari</title>
+    <style>
+        :root {
+            --primary-color: #2E7D32;
+            --accent-color: #FF6D00;
+            --bg-color: #F4F6F8;
+            --card-bg: #FFFFFF;
+            --text-color: #333333;
+            --text-light: #666666;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        header {
+            border-bottom: 2px solid #E0E0E0;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+
+        header p {
+            color: var(--text-light);
+            font-size: 14px;
+            margin: 0;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 20px;
+            margin-top: 30px;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 10px;
+        }
+
+        p, li {
+            color: var(--text-color);
+            font-size: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .highlight-box {
+            background-color: #E8F5E9;
+            border-left: 4px solid var(--primary-color);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .contact-box {
+            background-color: #FFF3E0;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-light);
+            border-top: 1px solid #E0E0E0;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🚛 Política de Privacidade - Meu Gari</h1>
+        <p>Última atualização: 12 de Outubro de 2026</p>
+    </header>
+
+    <section>
+        <h2>1. Introdução</h2>
+        <p>A equipe de desenvolvimento <strong>nbn10developer</strong>, formada por <strong>Narciso Brunazzo Neto</strong> e <strong>Alexandre Flores Jacques</strong>, desenvolveu o aplicativo <strong>Meu Gari</strong> como um serviço gratuito com o objetivo de fornecer informações geoespaciais e utilidade pública sobre horários, rotas e áreas de coleta de lixo em Florianópolis.</p>
+        <p>Esta Política de Privacidade descreve como as informações dos usuários são tratadas quando você utiliza nosso aplicativo móvel.</p>
+    </section>
+
+    <section>
+        <h2>2. Coleta e Uso de Informações</h2>
+        <p>Respeitamos profundamente a privacidade dos nossos usuários. O aplicativo <strong>Meu Gari</strong> não exige cadastro prévio, criação de conta ou dados pessoais de identificação direta (como CPF, e-mail ou nome completo) para ser utilizado.</p>
+
+        <div class="highlight-box">
+            <strong>📍 Dados de Localização Precisa e Aproximada:</strong>
+            <p>O aplicativo solicita permissão de acesso à sua localização (<code>ACCESS_FINE_LOCATION</code> e <code>ACCESS_COARSE_LOCATION</code>) exclusivamente enquanto o aplicativo está em uso ativo no primeiro plano.</p>
+            <p><strong>Finalidade:</strong> A localização é utilizada apenas para exibir a sua posição atual ("Você está aqui!") no mapa interativo, permitindo que você visualize os pontos de coleta e rotas de lixo mais próximos de você. Os seus dados de localização <strong>não são armazenados em servidores externos e nem compartilhados com terceiros para fins publicitários ou comerciais</strong>.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>3. Serviços de Terceiros e APIs</h2>
+        <p>Para o funcionamento das funcionalidades de mapas e notícias, o aplicativo utiliza serviços de terceiros que podem coletar dados técnicos de telemetria e identificadores de dispositivo de acordo com suas próprias políticas de privacidade:</p>
+        <ul>
+            <li><strong>Google Maps SDK for Android:</strong> Utilizado para renderizar as camadas de mapas e rotas de coleta de resíduos. Veja a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.</li>
+            <li><strong>Google Play Services:</strong> Utilizado para prover precisão no serviço de localização geográfica e verificação de atualizações.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Armazenamento de Dados Locais</h2>
+        <p>Os seus locais salvos na aba <strong>Favoritos</strong> são armazenados **exclusivamente na memória interna do seu próprio dispositivo** através do recurso <code>SharedPreferences</code> do Android. Você tem total controle para apagar qualquer favorito salvo a qualquer momento diretamente no app clicando no ícone de lixeira.</p>
+    </section>
+
+    <section>
+        <h2>5. Segurança da Informação</h2>
+        <p>Valorizamos a sua confiança em nos fornecer o acesso à localização enquanto utiliza o app. Toda a comunicação de rede do aplicativo utiliza conexões seguras criptografadas através do protocolo <strong>HTTPS</strong>.</p>
+    </section>
+
+    <section>
+        <h2>6. Revogação de Permissões de Localização</h2>
+        <p>Você pode revogar ou alterar o acesso do aplicativo à sua localização geográfica a qualquer momento através das configurações do seu dispositivo Android:</p>
+        <p><em>Configurações do Celular &gt; Aplicativos &gt; Meu Gari &gt; Permissões &gt; Localização &gt; Selecionar "Negar" ou "Permitir apenas durante o uso do app".</em></p>
+    </section>
+
+    <section>
+        <h2>7. Alterações nesta Política de Privacidade</h2>
+        <p>Podemos atualizar nossa Política de Privacidade periodicamente para refletir melhorias no aplicativo ou exigências regulatórias. Recomendamos que você revise esta página periodicamente para verificar quaisquer alterações.</p>
+    </section>
+
+    <div class="contact-box">
+        <h2>8. Contato e Suporte</h2>
+        <p>Se você tiver dúvidas, sugestões ou solicitações sobre esta Política de Privacidade ou sobre o aplicativo <strong>Meu Gari</strong>, entre em contato com a equipe de desenvolvimento <strong>nbn10developer</strong>:</p>
+        <ul>
+            <li><strong>Narciso Brunazzo Neto:</strong> (48) 996180635</li>
+            <li><strong>Alexandre Flores Jacques:</strong> (48) 988774696</li>
+            <li><strong>• Richard Leal Vatras:</strong> 48 992037431</li>
+            <li><strong>Desenvolvedora:</strong> nbn10developer</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Meu Gari - nbn10developer. Todos os direitos reservados.</p>
+    </footer>
+</div>
+
+</body>
+</html>
