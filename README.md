@@ -1,11 +1,15 @@
 # 🚛 Meu Gari
 
-Aplicativo Android gratuito de utilidade pública que ajuda moradores de **Florianópolis/SC** a saber **quando e onde** acontece a coleta de resíduos e **onde descartar** cada tipo de material.
+Aplicativo Android gratuito, de desenvolvimento privado e independente, que ajuda moradores de **Florianópolis/SC** a saber **quando e onde** acontece a coleta de resíduos e **onde descartar** cada tipo de material.
 
-![Versão](https://img.shields.io/badge/vers%C3%A3o-3.0.0-2E7D32)
+![Versão](https://img.shields.io/badge/vers%C3%A3o-3.1.0-2E7D32)
 ![Plataforma](https://img.shields.io/badge/plataforma-Android%209%2B-3DDC84)
 ![Linguagem](https://img.shields.io/badge/Kotlin-7F52FF)
 ![Anúncios](https://img.shields.io/badge/an%C3%BAncios-nenhum-FF6D00)
+
+> ⚠️ **Aviso:** o Meu Gari **não é um aplicativo oficial** e **não representa** a Prefeitura Municipal de Florianópolis, a Comcap ou qualquer entidade governamental. É um projeto privado, sem vínculo ou autorização de órgãos públicos.
+>
+> **Fonte oficial das informações (dados públicos):** [Prefeitura Municipal de Florianópolis](https://www.pmf.sc.gov.br/servicos/index.php?pagina=servpagina&id=260) · [pmf.sc.gov.br](https://www.pmf.sc.gov.br/)
 
 ## Capturas de tela
 
@@ -57,8 +61,8 @@ Outros recursos:
 
 | | |
 |---|---|
-| Pacote | `com.coding.meugari` |
-| Versão | 3.0.0 (código 7) |
+| Pacote | `com.nbn10developer.meugari` |
+| Versão | 3.1.0 (código 8) |
 | minSdk / targetSdk | 28 (Android 9) / 36 (Android 16) |
 
 ## Como compilar
@@ -104,7 +108,7 @@ app/src/main/
 
 ## Sobre os dados
 
-As camadas de coleta (KML) e a lista de pontos de descarte estão **embutidas no app**; para atualizá-las é preciso publicar uma nova versão. Os horários e locais são informativos — confirme sempre com os canais oficiais da Prefeitura de Florianópolis / Comcap.
+As camadas de coleta (KML) e a lista de pontos de descarte são baseadas em **dados públicos da Prefeitura Municipal de Florianópolis** e estão **embutidas no app**; para atualizá-las é preciso publicar uma nova versão. Os horários e locais são informativos — confirme sempre com os canais oficiais da Prefeitura de Florianópolis / Comcap.
 
 ## Autores
 
