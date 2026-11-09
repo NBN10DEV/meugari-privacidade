@@ -2,7 +2,7 @@
 
 Aplicativo Android gratuito, de desenvolvimento privado e independente, que ajuda moradores de **Florianópolis/SC** a saber **quando e onde** acontece a coleta de resíduos e **onde descartar** cada tipo de material.
 
-![Versão](https://img.shields.io/badge/vers%C3%A3o-3.1.0-2E7D32)
+![Versão](https://img.shields.io/badge/vers%C3%A3o-3.1.1-2E7D32)
 ![Plataforma](https://img.shields.io/badge/plataforma-Android%209%2B-3DDC84)
 ![Linguagem](https://img.shields.io/badge/Kotlin-7F52FF)
 ![Anúncios](https://img.shields.io/badge/an%C3%BAncios-nenhum-FF6D00)
@@ -62,7 +62,7 @@ Outros recursos:
 | | |
 |---|---|
 | Pacote | `com.nbn10developer.meugari` |
-| Versão | 3.1.0 (código 8) |
+| Versão | 3.1.1 (código 9) |
 | minSdk / targetSdk | 28 (Android 9) / 36 (Android 16) |
 
 ## Como compilar
