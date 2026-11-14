@@ -62,7 +62,7 @@ Outros recursos:
 |||
 |-|-|
 |Pacote|`com.nbn10developer.meugari`|
-|Versão|3.1.1 (código 9)|
+|Versão|3.1.2 (código 10)|
 |minSdk / targetSdk|28 (Android 9) / 36 (Android 16)|
 
 ## Como compilar
@@ -78,7 +78,7 @@ Outros recursos:
 
 3. Sincronize o Gradle e execute em um dispositivo ou emulador com Google Play Services.
 
-> ⚠️ Nunca publique sua chave de API. Restrinja-a no Google Cloud ao pacote `com.coding.meugari` e à impressão digital SHA-1 do seu certificado.
+> ⚠️ Nunca publique sua chave de API. Restrinja-a no Google Cloud ao pacote `com.nbn10developer.meugari` e à impressão digital SHA-1 do seu certificado.
 
 Para gerar a versão de publicação:
 
